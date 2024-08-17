@@ -1,0 +1,44 @@
+:root {
+    --smart-color-background: var(--smart-color-background, #edeae3);
+    --smart-color-error: var(--smart-color-error, #9e2d2d);
+    --smart-color-highlight: var(--smart-color-highlight, #69b5ce);
+    --smart-color-modal-backdrop: var(--smart-color-modal-backdrop, rgba(0, 0, 0, 0.5));
+    --smart-color-success: var(--smart-color-success, #498e49);
+    --smart-color-text: var(--smart-color-text, #303030);
+    --smart-border-radius: var(--smart-border-radius, 6px);
+    --smart-font-size: var(--smart-font-size, 13px);
+    --smart-spacing-size: var(--smart-spacing-size, 20px);
+    --smart-font-family-body: var(--smart-font-family-body, Georgia, Times, 'Times New Roman', serif);
+    --smart-font-family-heading: var(--smart-font-family-heading, 'HelveticaNeue-Light', Helvetica, Arial, 'Lucida Grande', sans-serif);
+  }
+  
+  body {
+    background-color: var(--smart-color-background);
+    color: var(--smart-color-text);
+    font-family: var(--smart-font-family-body);
+    font-size: var(--smart-font-size);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--smart-font-family-heading);
+  }
+  
+  .error {
+    color: var(--smart-color-error);
+  }
+  
+  .success {
+    color: var(--smart-color-success);
+  }
+  
+  .highlight {
+    color: var(--smart-color-highlight);
+  }
+  
+  .modal {
+    border-radius: var(--smart-border-radius);
+  }
+  
+  .modal-backdrop {
+    background-color: var(--smart-color-modal-backdrop);
+  }
